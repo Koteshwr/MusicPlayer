@@ -1,0 +1,79 @@
+@media screen and (max-width:400px)
+{
+    #menu-btn{
+        display: none;
+        height: 0;
+    }
+    .containertitle {
+            display: inline-block;
+            padding-left: 15vh;
+            justify-self: center;
+        }
+    
+    .Player{
+        width: 0%;
+        height: 0%;
+        padding: 0;
+        margin: 0;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+    }
+    
+    .search input {
+        display: none;
+    }
+    .title {
+        font-size: medium;
+    }
+    nav ul li a {
+        display: none;
+    }
+    .logo img {
+        margin: 0px 10px;
+        width: 33px;
+        border-radius: 50%;
+    }
+     .logo {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+    }
+    .songsList{
+        padding: 0;
+        margin: 0;
+        overflow: scroll;
+        height: 75vh;
+        width: 100%;
+    }
+    .logoName {
+
+        margin-left: 75px;
+        font-size: 1rem;
+    }
+    .songListItems_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+        margin: 0;
+        /* padding: 30px 0px; */
+        height: 100%;
+    }
+    .song-item img{
+        width: 27px;
+        border-radius: 50%;
+        margin: 0px 20px;
+    }
+    .footer
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+   
+    
+}
