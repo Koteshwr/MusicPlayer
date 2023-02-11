@@ -1,75 +1,101 @@
-@media screen and (max-width:400px)
-{
-    #menu-btn{
+@media screen and (max-width:400px) {
+    #menu-btn {
         display: none;
         height: 0;
     }
+
     .containertitle {
-            display: inline-block;
-            padding-left: 15vh;
-            justify-self: center;
-        }
-    
-    .Player{
+        display: inline-block;
+        padding-left: 15vh;
+        justify-self: center;
+    }
+
+    .Player {
         width: 0%;
         height: 0%;
         padding: 0;
         margin: 0;
     }
+
     .logo {
         display: flex;
         align-items: center;
         font-weight: 500;
     }
-    
+
     .search input {
         display: none;
     }
+
     .title {
         font-size: medium;
     }
+
     nav ul li a {
         display: none;
     }
+
     .logo img {
         margin: 0px 10px;
         width: 33px;
         border-radius: 50%;
     }
-     .logo {
+
+    .logo {
         display: flex;
         align-items: center;
         font-weight: 500;
     }
-    .songsList{
+
+    .songsList {
         padding: 0;
         margin: 0;
         overflow: scroll;
         height: 75vh;
         width: 100%;
     }
+
     .logoName {
 
         margin-left: 75px;
         font-size: 1rem;
     }
-    .songListItems_mobile{
+
+    .songListItems_mobile {
         display: flex;
         flex-direction: column;
-     
         align-items: center;
         overflow: scroll;
         margin: 0;
-        /* padding: 30px 0px; */
+        padding: 20px 0px;
         height: 100%;
     }
-    
-    .footer
-{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-   
-    
+
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .Mobile-Main-Home {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container1 {
+        background-color: rgb(31, 30, 30);
+        height: 73vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #picture {
+        border-radius: 10px;
+        margin: 10px;
+        height: 60vh;
+        width: 100%;
+    }
 }
