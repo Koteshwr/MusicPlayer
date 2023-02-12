@@ -76,6 +76,8 @@
     }
 
     .footer {
+        padding-top:10px;
+        height: 15vh;
         position: absolute;
         bottom: 0px;
         width: 100%;
