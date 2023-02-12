@@ -68,7 +68,7 @@ function playAudio(Name_of_song, path_of_song) {
             titles[CurrentSong].style.color = "white"
             audioEl.pause()
             CurrentSong = (CurrentSong + 1) % 9;
-            // MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
+            MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
             pic.src = SongList[CurrentSong].im;
             Name_of_song = SongList[CurrentSong].name;
             path_of_song = SongList[CurrentSong].path;
@@ -91,7 +91,7 @@ ListOfSongs.forEach((element, i) => {
         titles[CurrentSong].style.color = "white"
         CurrentSong = element.id;
         pic.src = SongList[CurrentSong].im;
-        // MainTab.getElementsByTagName('img')[0].src = SongList[element.id].im
+        MainTab.getElementsByTagName('img')[0].src = SongList[element.id].im
         console.log("pic updated")
         page.style.height = '75vh';
         // page.style.visibility = "visible";
@@ -135,7 +135,7 @@ backbtn.addEventListener('click', () => {
         Name_of_song = SongList[CurrentSong].name;
         path_of_song = SongList[CurrentSong].path;
         pic.src = SongList[CurrentSong].im;
-        // MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
+        MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
         mainplaybtn.classList.remove("fa-circle-play")
         mainplaybtn.classList.add("fa-circle-pause")
 
@@ -154,7 +154,7 @@ nextbtn.addEventListener('click', () => {
         titles[CurrentSong].style.color = "white"
         audioEl.pause()
         CurrentSong = (CurrentSong + 1) % 9;
-        // MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
+        MainTab.getElementsByTagName('img')[0].src = SongList[CurrentSong].im
         pic.src = SongList[CurrentSong].im;
 
         Name_of_song = SongList[CurrentSong].name;
