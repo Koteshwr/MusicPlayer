@@ -93,7 +93,8 @@ ListOfSongs.forEach((element, i) => {
         pic.src = SongList[CurrentSong].im;
         // MainTab.getElementsByTagName('img')[0].src = SongList[element.id].im
         console.log("pic updated")
-        page.style.visibility = "visible";
+        page.style.height = '75vh';
+        // page.style.visibility = "visible";
         musiclist.classList.add("fa-bars");
         musiclist.classList.remove("fa-square-xmark");
         Name_of_song = SongList[element.id].name;
