@@ -3,7 +3,11 @@
         display: none;
         height: 0;
     }
-
+  
+    /* #list-icon{
+        display: contents;
+    } */
+    
     .containertitle {
         display: inline-block;
         padding-left: 15vh;
@@ -77,19 +81,20 @@
         width: 100%;
     }
 
-    .Mobile-Main-Home {
-        position: absolute;
-        top: 8vh;
-        width: 100%;
-        height: 100%;
-    }
+   
 
     .container1 {
+        position: absolute;
+        top: 7vh;
+        width: 100%;
+        height: 100%;
         background-color: rgb(31, 30, 30);
         height: 73vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
+        transition: 0.2s linear;
     }
 
     #picture {
@@ -98,4 +103,13 @@
         height: 60vh;
         width: 100%;
     }
+    #list-icon{
+        cursor: pointer;
+        position: relative;
+        right: -82px;
+        top: 0px;
+        color: white;
+        font-size: 20px;
+    }
+  
 }
