@@ -137,7 +137,7 @@ nav ul li a {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    height: 16vh;
+    height: 20vh;
 
 }
 
@@ -217,7 +217,6 @@ nav ul li a {
 #menu-bar {
     cursor: pointer;
 }
-
 
 
    
