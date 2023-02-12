@@ -3,7 +3,7 @@
 
 let page = document.getElementById("mobile-home");
 let musiclist = document.getElementById("list-icon");
-page.style.visibility = "visible";
+page.style.height = "75vh";
 
 if (screen.width <= 400) {
     document.getElementsByClassName("songListItems")[0].classList.add("songListItems_mobile");
