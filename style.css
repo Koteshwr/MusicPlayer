@@ -142,6 +142,7 @@ nav ul li a {
 }
 
 #songName {
+    margin-top: 8px;
     padding: 3px;
     text-align: center;
 }
