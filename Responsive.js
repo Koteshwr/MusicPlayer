@@ -13,13 +13,15 @@ if (screen.width <= 400) {
 }
 musiclist.addEventListener('click', () => {
 
-    if (page.style.visibility == "visible") {
-        page.style.visibility = "collapse";
+    if ( page.style.height == '75vh') {
+        // page.style.visibility = "collapse";
+        page.style.height = '0vh';
         musiclist.classList.remove("fa-bars");
         musiclist.classList.add("fa-square-xmark");
     }
     else{
-        page.style.visibility = "visible";
+        // page.style.visibility = "visible";
+        page.style.height = '75vh';
         musiclist.classList.add("fa-bars");
         musiclist.classList.remove("fa-square-xmark");
     }
