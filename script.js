@@ -158,7 +158,7 @@ nextbtn.addEventListener('click', () => {
         pic.src = SongList[CurrentSong].im;
 
         Name_of_song = SongList[CurrentSong].name;
-        path_of_song = SongList[CurrentSong].path;
+        path_of_song  = SongList[CurrentSong].path;
         mainplaybtn.classList.remove("fa-circle-play")
         mainplaybtn.classList.add("fa-circle-pause")
         playAudio(Name_of_song, path_of_song)
