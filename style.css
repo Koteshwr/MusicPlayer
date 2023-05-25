@@ -140,9 +140,11 @@ nav ul li a {
     height: 20vh;
 
 }
+#mobile-home{
+    width:0;
+}
 
 #songName {
-    margin-top: 15px;
     padding: 3px;
     text-align: center;
 }
@@ -218,6 +220,9 @@ nav ul li a {
 #menu-bar {
     cursor: pointer;
 }
+/* #list-icon{
+    display: none;
+} */
 
 
    
